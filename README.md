@@ -16,14 +16,14 @@ Informa si se encontraron errores léxicos y en qué línea del texto se ubican.
 El sistema está dividido en las siguientes clases principales:
 
 ### ✅ Token.java
-  Define los tipos de token reconocidos.
-  Incluye una enumeración con categorías como:
-    -PALABRA_RESERVADA
-    -OPERADOR
-    -IDENTIFICADOR
-    -NUMERO
-    -PUNTUACION
-    -DESCONOCIDO
+Define los tipos de token reconocidos.
+Incluye una enumeración con categorías como:
+  -PALABRA_RESERVADA
+  -OPERADOR
+  -IDENTIFICADOR
+  -NUMERO
+  -PUNTUACION
+  -DESCONOCIDO
 
 ### ⚙️ Analizador.java
   Contiene la lógica principal de análisis léxico.
